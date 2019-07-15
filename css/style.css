@@ -1,0 +1,48 @@
+*,html,body
+{
+    margin: 0;
+    padding: 0;
+
+    
+}
+body {
+  // font grows 1px for every 100px of viewport width
+  font-size: calc(16px + 1vw);
+  // leading grows along with font,
+  // with an additional 0.1em + 0.5px per 100px of the viewport
+  line-height: calc(1.1em + 0.5vw);
+    height: 3000px;
+}
+header
+{
+   
+    height: 112px;
+    line-height: 112px;
+    position:fixed;
+    z-index: 1;
+    width: 100%;
+}
+.secondary{
+    background-color: black;
+}
+
+
+ul{
+    list-style: none;
+}
+ul li
+{
+    display: inline-block;
+}
+header nav{
+    float: right;
+}
+header nav ul li a
+{
+    padding-right: 30px;
+    font-weight: bold;
+    color:aliceblue;
+    transition: all 0.5s ease-in;
+}
+
+
